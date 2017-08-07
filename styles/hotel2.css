@@ -1,5 +1,6 @@
 body {
-  font-family: microsoft yahei; }
+  font-family: microsoft yahei, Arial, Helvetica, sans-serif;
+  margin: 0; }
   body header {
     margin: 0px;
     height: 450px;
@@ -9,19 +10,24 @@ body {
       height: 140px;
       width: 100px;
       float: left; }
-    body header nav ul li {
-      list-style-type: none;
-      display: inline-block;
-      margin-top: 30px;
-      margin-bottom: 30px; }
-      body header nav ul li a {
-        margin-left: 15px;
-        color: #0b0b0b;
-        color: white;
-        font-size: 16px;
-        font-weight: 700; }
-        body header nav ul li a:hover {
-          color: #999; }
+    body header nav {
+      background-color: white; }
+      body header nav ul {
+        margin: 0; }
+        body header nav ul li {
+          list-style-type: none;
+          display: inline-block;
+          margin-top: 20px;
+          margin-bottom: 20px; }
+          body header nav ul li a {
+            margin-left: 15px;
+            color: #0b0b0b;
+            color: black;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none; }
+            body header nav ul li a:hover {
+              color: #999; }
     body header h1 {
       text-align: center;
       color: white;
@@ -33,24 +39,65 @@ body {
       body header h1 span {
         display: inline-block;
         padding: 0.5em;
-        border: white solid 10px; }
-  body .container ul li {
-    list-style-type: none;
-    display: inline-block; }
-    body .container ul li a {
-      margin: 5px 20px 5px 0px;
-      color: #0b0b0b; }
-      body .container ul li a:hover {
-        color: #999; }
+        border: white solid 5px; }
+  body .container {
+    border-bottom: 1px solid #999; }
+    body .container ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 0; }
+      body .container ul li a {
+        margin: 5px 20px 5px 0px;
+        color: #0b0b0b;
+        text-decoration: none; }
+        body .container ul li a:hover {
+          color: #999; }
   body .col {
-    background-color: #999;
+    display: inline-block;
     float: left;
     margin: 1%;
     width: 31%;
     height: 250px;
-    border-radius: 5px;
+    background-color: #999;
+    background-size: cover;
+    border-radius: 2px;
     box-shadow: 2px 2px 0 #d2d1d1; }
-  body footer {
-    clear: left; }
+
+footer {
+  clear: both;
+  font-family: microsoft yahei, Arial, Helvetica, sans-serif; }
+  footer .box-le {
+    width: 158px;
+    padding-left: 46px;
+    min-height: 450px;
+    float: left; }
+    footer .box-le .f-name {
+      color: #666;
+      line-height: 20px; }
+    footer .box-le .c1_col {
+      color: #2980b9;
+      font-size: 20px;
+      line-height: 28px;
+      text-shadow: 1px 1px 1px #ccc; }
+  footer .box-cm {
+    width: 805px;
+    padding-left: 50px;
+    float: left;
+    font-size: 16px;
+    color: #666; }
+    footer .box-cm .box-con-nav {
+      line-height: 24px;
+      letter-spacing: 0.025em; }
+    footer .box-cm:hover {
+      color: #2980b9; }
+  footer .box-con-lx {
+    margin-top: 20px;
+    line-height: 24px;
+    color: #666;
+    font-size: 14px;
+    padding-left: 5px; }
+  footer a {
+    color: #666;
+    text-decoration: none; }
 
 /*# sourceMappingURL=hotel2.css.map */
